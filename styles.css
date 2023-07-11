@@ -5,7 +5,7 @@
 
 .btn {
     border-radius: 8px;
-    background: #E55473;
+    background: #00c3ff;
     color: white;
     padding: 14px 23px;
     gap: 10px;
@@ -15,7 +15,7 @@
 
 .banner {
     height: 100vh;
-    background-color: rgba(229, 84, 115, 0.1);
+    background-color: #ff7fc5ae;
     justify-content: space-between;
     margin: auto;
     display: flex;
@@ -115,7 +115,7 @@
 
 .service-container {
     display: flex;
-    background-color: #2727270D;
+    background-color: #ff000034;
     color: rgba(39, 39, 39, 0.80);
     width: 80%;
     margin: auto;
@@ -134,7 +134,7 @@
 }
 
 .sale-part {
-    background-color: #E554730D;
+    background-color: #d618415a;
     height: 80vh;
     margin-top: 150px;
     margin-bottom: 150px;
@@ -209,7 +209,7 @@
 
 .last {
     height: 35vh;
-    background-color: #000000;
+    background-color: #000000d6;
     color: #ffffff;
     justify-content: space-around;
     align-items: center;
@@ -234,4 +234,27 @@
     color: rgba(255, 255, 255, 0.40);
     font-size: 12px;
     font-weight: 400;
+}
+
+.bonus{
+    display: flex;   
+    height: 70vh;
+    background-color: rgba(255, 100, 162, 0.386);
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+    
+    
+}
+.bonus-l{
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 12px red;
+    
 }
