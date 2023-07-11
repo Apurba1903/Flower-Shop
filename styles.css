@@ -84,25 +84,80 @@
     height: 400px;
     border-radius: 300px 300px 0px 0px;
 }
+
 .box-flower2 {
     background-color: #0597A026;
     width: 350px;
     height: 400px;
     border-radius: 300px 300px 0px 0px;
 }
+
 .box-flower3 {
     background-color: #477D1126;
     width: 350px;
-    height: 400px;   
+    height: 400px;
     border-radius: 300px 300px 0px 0px;
 }
-.image-size{
+
+.image-size {
     width: 250px;
-    height: 300px;    
+    height: 300px;
 }
-.box-flower-name{
+
+.box-flower-name {
     background-color: rgb(255, 255, 255);
     padding-bottom: 100px;
     padding-top: 20px;
     text-decoration: underline;
+}
+
+
+.service-container {
+    display: flex;
+    background-color: #2727270D;
+    color: rgba(39, 39, 39, 0.80);
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.service-items-description {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sale-part {
+    background-color: #E554730D;
+    height: 80vh;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sale-part-information {
+    text-align: center;
+}
+
+.sale-part-title {
+    color: #272727;
+    font-size: 34px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.sale-part-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.off{
+    color:#E55473;
 }
