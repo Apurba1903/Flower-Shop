@@ -7,9 +7,10 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
-    padding: 20px 43px;
+    padding: 14px 23px;
     gap: 10px;
     font-weight: 700;
+    
 }
 
 .banner {
@@ -158,6 +159,51 @@
     font-size: 16px;
     padding-bottom: 20px;
 }
-.off{
-    color:#E55473;
+
+.off {
+    color: #E55473;
+}
+
+
+.showcase {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.showcase-title-pictures {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pics {
+    width: 250px;
+    height: 300px;
+}
+
+.deals {
+    height: 35vh;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 71%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.input-box {
+    border-radius: 8px;
+    background: #FFF;
+    width: 450px;
+    height: 40px;
 }
